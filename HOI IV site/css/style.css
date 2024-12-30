@@ -68,13 +68,11 @@ h2{
 img{
     width:75vh;
     border-radius:15px;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin:10px 0;
 }
 
 p{
-    margin-bottom:10px;
-    margin-top:10px;
+    margin:10px 0;
 }
 
 li{
@@ -223,11 +221,11 @@ li{
  }
  
  .quinary p{
-     margin-bottom:5px;
+    margin-bottom:5px;
  }
  
  .quinary li{
-     margin:0 0 15px 10px;
+    margin:0 0 15px 10px;
  
  }
  
@@ -320,15 +318,15 @@ span{
 }
 
 #decisionimg, #rechercheimg, #experimentationimg, #diplomatieimg, #commerceimg, #constructionimg, #productionimg, #recrutementimg, #logistiqueimg, #officiersimg {
-    display: none;  /* Masquer les images au départ */
-    position: fixed;  /* Positionner l'image par rapport à la fenêtre */
-    z-index: 9999;  /* S'assurer que l'image est au-dessus des autres éléments */
-    max-height: 90%;  /* Limiter la hauteur de l'image à 90% de la fenêtre */
-    max-width: 75%;  /* Limiter la largeur de l'image à 75% de la fenêtre */
-    top: 50%;  /* Centrer verticalement l'image */
-    left: 50%;  /* Centrer horizontalement l'image */
-    transform: translate(-50%, -50%);  /* Ajuster l'image de manière à ce qu'elle soit parfaitement centrée */
-    object-fit: contain;  /* Maintenir les proportions de l'image et s'adapter à l'espace disponible */
+    display: none;
+    position: fixed; 
+    z-index: 9999;
+    max-height: 90%;
+    max-width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1700px) {
