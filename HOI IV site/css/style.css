@@ -1,0 +1,381 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#251520;
+    color:white;
+}
+
+/* menu */
+.menu{
+    background-color:#311010;
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+
+.menu ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style-type:none;
+    font-size:20px;
+    color:white;
+}
+
+.menu ul li a{
+    text-decoration:underline;
+    color:white;
+}
+
+.menu ul li a:hover{
+    color:grey;
+}
+
+/* mainbody */
+.mainbody{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 25px auto 0 auto;
+    width:95%;
+}
+
+section{
+    background-color:#361716;
+    padding:50px;
+    margin:10px;
+    border-radius:15px;
+}
+
+h1{
+    font-size:40px;
+    font-style:italic;
+    margin-bottom:25px;
+}
+
+h2{
+    margin-bottom:25px;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    color:white;
+}
+
+img{
+    width:75vh;
+    border-radius:15px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+p{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+li{
+    margin-bottom:2px;
+    margin-top:2px;
+}
+
+/* launcher */
+.secondary{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.secondary .texte{
+   background: #471F27;
+   padding:15px;
+   border-radius:10px;
+}
+
+.secondary p{
+    margin-bottom:5px;
+}
+
+.secondary li{
+    margin:0 0 5px 10px;
+
+}
+
+.secondary a{
+    text-decoration:underline;
+    color:blue;
+    font-weight:bold;
+}
+
+.secondary a:hover{
+    color:rgb(0, 0, 214);
+}
+
+/* lancement d'une partie */
+.terciary{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.terciary .imgs{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:10px;
+}
+
+.terciary .texte{
+   background: #471F27;
+   padding:15px;
+   border-radius:10px;
+}
+
+.terciary p{
+    margin-bottom:5px;
+}
+
+.terciary li{
+    margin:0 0 5px 10px;
+
+}
+
+.terciary a{
+    text-decoration:underline;
+    color:blue;
+    font-weight:bold;
+}
+
+.terciary a:hover{
+    color:rgb(0, 0, 214);
+}
+
+.terciary img{
+    width:50vh;
+    border-radius:15px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+
+/* La partie */
+.quaternary{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.quaternary img{
+    width:35vh;
+}
+
+.quaternary .texte{
+    background: #471F27;
+    padding:15px;
+    border-radius:10px;
+ }
+ 
+ .quaternary p{
+     margin-bottom:5px;
+ }
+ 
+ .quaternary li{
+     margin:0 0 15px 10px;
+ 
+ }
+ 
+ .quaternary a{
+     text-decoration:underline;
+     color:blue;
+     font-weight:bold;
+ }
+ 
+ .quaternary a:hover{
+     color:rgb(0, 0, 214);
+ }
+
+/* La partie 2 */
+.quinary{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.quinary img{
+    width:150vh;
+}
+
+.quinary .texte{
+    background: #471F27;
+    padding:15px;
+    border-radius:10px;
+ }
+ 
+ .quinary p{
+     margin-bottom:5px;
+ }
+ 
+ .quinary li{
+     margin:0 0 15px 10px;
+ 
+ }
+ 
+ .quinary a{
+     text-decoration:underline;
+     color:blue;
+     font-weight:bold;
+ }
+ 
+ .quinary a:hover{
+     color:rgb(0, 0, 214);
+ }
+
+/* les armees */
+.sexiary{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.sexiary .imgs{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:10px;
+}
+
+.sexiary .texte{
+   background: #471F27;
+   padding:15px;
+   border-radius:10px;
+}
+
+.sexiary p{
+    margin-bottom:5px;
+}
+
+.sexiary li{
+    margin:0 0 5px 10px;
+
+}
+
+.sexiary a{
+    text-decoration:underline;
+    color:blue;
+    font-weight:bold;
+}
+
+.sexiary a:hover{
+    color:rgb(0, 0, 214);
+}
+
+.sexiary img{
+    width:25vh;
+    border-radius:15px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+span.green{
+    color:green;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+span.green:hover{
+    cursor:initial;
+}
+
+.first{
+    background: #471F27;
+    padding:15px;
+    border-radius:10px;
+}
+
+.imgs{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+/* les images de la deuxieme ligne */
+span{
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+
+#decisionimg, #rechercheimg, #experimentationimg, #diplomatieimg, #commerceimg, #constructionimg, #productionimg, #recrutementimg, #logistiqueimg, #officiersimg {
+    display: none;  /* Masquer les images au départ */
+    position: fixed;  /* Positionner l'image par rapport à la fenêtre */
+    z-index: 9999;  /* S'assurer que l'image est au-dessus des autres éléments */
+    max-height: 90%;  /* Limiter la hauteur de l'image à 90% de la fenêtre */
+    max-width: 75%;  /* Limiter la largeur de l'image à 75% de la fenêtre */
+    top: 50%;  /* Centrer verticalement l'image */
+    left: 50%;  /* Centrer horizontalement l'image */
+    transform: translate(-50%, -50%);  /* Ajuster l'image de manière à ce qu'elle soit parfaitement centrée */
+    object-fit: contain;  /* Maintenir les proportions de l'image et s'adapter à l'espace disponible */
+}
+
+@media screen and (max-width: 1700px) {
+    .first img, .secondary img, .quaternary img{
+        width:50vh;
+    }
+
+    .terciary img{
+        width:45vh;
+    }
+
+    .quinary img{
+        width:65vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .secondary{
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .terciary .imgs {
+        flex-direction:column;
+    }
+
+    .quaternary{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sexiary .imgs{
+        flex-direction:column;
+    }
+    .quinary img{
+        width:45vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first img, .secondary img, .quaternary img{
+        width:40vh;
+    }
+
+    .terciary img{
+        width:35vh;
+    }
+}
